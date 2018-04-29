@@ -1,5 +1,6 @@
-package foncionalite;
+package fonctionnalite;
 
-public class Foncioanlite {
+public class Fonctionnalite {
+	public Fonctionnalite () {}
 
 }
