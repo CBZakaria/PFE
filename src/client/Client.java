@@ -11,4 +11,6 @@ public class Client {
 	public void bak () {System.out.println("cli back");}
 	
 	public void zak2() {}
+	
+	public void bak2() {}
 }
