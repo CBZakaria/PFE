@@ -4,3 +4,4 @@ public class Fonctionnalite {
 	public Fonctionnalite () {}
 
 }
+
