@@ -14,13 +14,19 @@ public class Utilisateur implements Serializable{
 	protected static int nbconnected=0;
 	protected Inscription insc=new Inscription(); 
 	protected ArrayList<Utilisateur> utilisateurs=new ArrayList<Utilisateur>();
+	
+	
 	public Utilisateur(String user, String pass) {
 		this.user = user;
 		this.pass = pass;
 		Utilisateur.nbUtilisateur++;
 		utilisateurs.add(this);
 	}
+	
+	
 	public Utilisateur() {}
+	
+	
 	public void connectUser() throws FileNotFoundException, ClassNotFoundException, IOException {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Entrer votre login : ");
